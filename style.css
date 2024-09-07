@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(243, 215, 247);
+    align-items: center;
+    align-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    margin: 10px;
+    font-size: 14px;
+    color: rgb(81, 10, 136);
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+}
+header img {
+    width: 30%;
+    border-radius: 50%;
+    margin-left: 15%;
+}
+h1 {
+    font-size: 22px;
+    color: rgb(159, 125, 194);
+    font-family: "Quicksand", sans-serif;
+}
+h6{
+    font-size: 20px;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    text-align: left;
+
+}
+p {
+    font-size: 18px;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    text-align: justify;
+    margin: 30px;    
+}
+a{
+    text-decoration: none;
+    
+}
+.div_conteiner-fluid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(250, 241, 250);
+}
+#divhome {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#divhome img{
+    width: 100%;
+    align-items: center;
+}
+#div1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#div1 img {
+    width: 40%;
+    border-radius: 50%;
+    align-items: center;
+    margin: 30px;
+}
+#div2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#div2 img {
+    width: 75%;
+    margin: 15px;
+}
+#div2 h1{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+#div3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#div3 img {
+    width: 75%;
+    margin: 15px;
+}
+#div4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#div4 li{
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    color: rgb(81, 10, 136);
+    font-family: "Quicksand", sans-serif;
+    margin-left: 30px;
+}
+#div4 p{
+    font-size: 16px;
+    color: black;
+    font-family: "Quicksand", sans-serif;
+}
+#div4 h1{
+    margin-left: 30px;
+}
+#div4 iframe {
+    width: 75%;
+    margin-left: 30px;
+}
+footer p{
+    font-size: 14px;
+}
+@media (max-width: 767px){
+header{
+    background-color: rgb(243, 215, 247);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+header img{
+    width: 80px;
+    border-radius: 50%;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(81, 10, 136);
+    font-family: "Quicksand", sans-serif;
+    text-align: center
+}
+nav ul li{
+    font-size: 14px;
+    margin: 2px;
+}
+footer p{
+    text-align: center;
+}
+}
